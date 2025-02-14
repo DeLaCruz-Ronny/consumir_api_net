@@ -7,7 +7,7 @@ namespace consumir_api
     {
         static async Task Main(string[] args)
         {
-            string apiUrl = "https://webapplication1-production.up.railway.app/WeatherForecast";
+            string apiUrl = "https://weather.rmdp.dev/WeatherForecast";
 
             using (HttpClient client = new HttpClient())
             {
